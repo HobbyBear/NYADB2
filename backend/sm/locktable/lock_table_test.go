@@ -1,8 +1,8 @@
 package locktable_test
 
 import (
-	"nyadb2/backend/sm/locktable"
-	"nyadb2/backend/utils"
+	"NYADB2/backend/sm/locktable"
+	"NYADB2/backend/utils"
 	"testing"
 )
 

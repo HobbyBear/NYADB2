@@ -5,9 +5,8 @@
 package parser
 
 import (
+	"NYADB2/backend/parser/statement"
 	"errors"
-
-	"nyadb2/backend/parser/statement"
 )
 
 var (
@@ -490,7 +489,7 @@ func isLogicOp(op string) bool {
 
 func isType(tp string) bool {
 	return tp == "uint32" || tp == "uint64" ||
-		 tp == "string"
+		tp == "string"
 }
 
 func isName(name string) bool {

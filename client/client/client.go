@@ -18,7 +18,7 @@
 */
 package client
 
-import "nyadb2/transporter"
+import "NYADB2/transporter"
 
 type Client interface {
 	Execute(stat []byte) ([]byte, error)

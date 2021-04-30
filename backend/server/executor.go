@@ -1,12 +1,12 @@
 package server
 
 import (
+	"NYADB2/backend/parser"
+	"NYADB2/backend/parser/statement"
+	"NYADB2/backend/tbm"
+	"NYADB2/backend/tm"
+	"NYADB2/backend/utils"
 	"errors"
-	"nyadb2/backend/parser"
-	"nyadb2/backend/parser/statement"
-	"nyadb2/backend/tbm"
-	"nyadb2/backend/tm"
-	"nyadb2/backend/utils"
 )
 
 var (

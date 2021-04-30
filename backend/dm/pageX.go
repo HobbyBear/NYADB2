@@ -9,7 +9,7 @@
 */
 package dm
 
-import "nyadb2/backend/dm/pcacher"
+import "NYADB2/backend/dm/pcacher"
 
 const (
 	_PX_OF_FREE = 0

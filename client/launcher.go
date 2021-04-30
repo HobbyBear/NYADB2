@@ -1,10 +1,11 @@
 package main
 
 import (
+	"NYADB2/client/client"
+	"NYADB2/transporter"
 	"fmt"
 	"net"
-	"nyadb2/client/client"
-	"nyadb2/transporter"
+
 	"os"
 )
 

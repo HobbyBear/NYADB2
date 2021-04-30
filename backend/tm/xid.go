@@ -1,6 +1,6 @@
 package tm
 
-import "nyadb2/backend/utils"
+import "NYADB2/backend/utils"
 
 type XID utils.UUID
 

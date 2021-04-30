@@ -3,7 +3,7 @@
 */
 package sm
 
-import "nyadb2/backend/tm"
+import "NYADB2/backend/tm"
 
 type transaction struct {
 	XID          tm.XID

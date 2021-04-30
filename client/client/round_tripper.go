@@ -3,7 +3,7 @@
 */
 package client
 
-import "nyadb2/transporter"
+import "NYADB2/transporter"
 
 type RoundTripper interface {
 	RoundTrip(pkg transporter.Package) (transporter.Package, error)

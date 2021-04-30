@@ -1,6 +1,6 @@
 package pcacher
 
-import "nyadb2/backend/utils"
+import "NYADB2/backend/utils"
 
 type Pgno uint32
 

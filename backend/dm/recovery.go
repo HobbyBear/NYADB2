@@ -4,10 +4,10 @@
 package dm
 
 import (
-	"nyadb2/backend/dm/logger"
-	"nyadb2/backend/dm/pcacher"
-	"nyadb2/backend/tm"
-	"nyadb2/backend/utils"
+	"NYADB2/backend/dm/logger"
+	"NYADB2/backend/dm/pcacher"
+	"NYADB2/backend/tm"
+	"NYADB2/backend/utils"
 )
 
 const (

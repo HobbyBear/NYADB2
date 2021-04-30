@@ -1,8 +1,8 @@
 package pindex_test
 
 import (
-	"nyadb2/backend/dm/pcacher"
-	"nyadb2/backend/dm/pindex"
+	"NYADB2/backend/dm/pcacher"
+	"NYADB2/backend/dm/pindex"
 	"testing"
 )
 

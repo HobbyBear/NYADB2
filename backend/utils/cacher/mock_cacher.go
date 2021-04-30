@@ -1,7 +1,7 @@
 package cacher
 
 import (
-	"nyadb2/backend/utils"
+	"NYADB2/backend/utils"
 	"sync"
 )
 

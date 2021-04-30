@@ -1,8 +1,8 @@
 package dm
 
 import (
-	"nyadb2/backend/dm/pcacher"
-	"nyadb2/backend/utils"
+	"NYADB2/backend/dm/pcacher"
+	"NYADB2/backend/utils"
 )
 
 func UUID2Address(uid utils.UUID) (pcacher.Pgno, Offset) {

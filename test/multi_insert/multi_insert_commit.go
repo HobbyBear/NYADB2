@@ -1,8 +1,8 @@
 package main
 
 import (
+	"NYADB2/backend/utils"
 	"math/rand"
-	"nyadb2/backend/utils"
 	"os"
 	"strconv"
 )
@@ -31,6 +31,6 @@ func genInputC(id, noTasks int) {
 func genSQLC(i int) string {
 	sql := "insert into student values " + "MAGIC" + string(utils.RandBytes(50)) + " " +
 		strconv.Itoa(i) + " " +
-		utils.Int32ToStr(int32(rand.Uint32()%1000000000)) + " "
+		strconv.Itoa(int(rand.Uint32()%1000000000)) + " "
 	return sql
 }

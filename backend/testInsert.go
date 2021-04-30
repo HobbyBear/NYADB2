@@ -1,17 +1,16 @@
 package main
 
 import (
-	"sync"
-	"time"
+	"NYADB2/backend/dm"
+	"NYADB2/backend/server"
+	"NYADB2/backend/sm"
+	"NYADB2/backend/tbm"
+	"NYADB2/backend/tm"
+	"NYADB2/backend/utils"
 	"fmt"
 	"runtime"
-
-	"nyadb2/backend/dm"
-	"nyadb2/backend/server"
-	"nyadb2/backend/sm"
-	"nyadb2/backend/tbm"
-	"nyadb2/backend/tm"
-	"nyadb2/backend/utils"
+	"sync"
+	"time"
 )
 
 const (
@@ -45,7 +44,7 @@ func testInsert(exe server.Executor, noInsertions int, prt bool) {
 	defer func() {
 		end := time.Now().UnixNano()
 		if prt {
-			fmt.Println((end - begin) / 1000000, "ms")
+			fmt.Println((end-begin)/1000000, "ms")
 		}
 	}()
 
@@ -82,7 +81,7 @@ func testMultiInsert(tot, noWorkers int) {
 	begin := time.Now().UnixNano()
 	defer func() {
 		end := time.Now().UnixNano()
-		fmt.Println("Multi Tot:", (end - begin) / 1000000, "ms")
+		fmt.Println("Multi Tot:", (end-begin)/1000000, "ms")
 	}()
 
 	e := testCreate()

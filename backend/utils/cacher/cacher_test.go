@@ -1,9 +1,9 @@
 package cacher_test
 
 import (
+	"NYADB2/backend/utils"
+	"NYADB2/backend/utils/cacher"
 	"math/rand"
-	"nyadb2/backend/utils"
-	"nyadb2/backend/utils/cacher"
 	"sync"
 	"testing"
 )

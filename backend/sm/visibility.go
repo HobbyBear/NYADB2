@@ -4,7 +4,7 @@
 */
 package sm
 
-import "nyadb2/backend/tm"
+import "NYADB2/backend/tm"
 
 // IsVersionSkip 检测是否发生了版本跳跃
 func IsVersionSkip(tm tm.TransactionManager, t *transaction, e *entry) bool {

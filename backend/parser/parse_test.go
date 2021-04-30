@@ -1,11 +1,10 @@
 package parser
 
 import (
+	"NYADB2/backend/parser/statement"
 	"fmt"
 	"os"
 	"testing"
-
-	"nyadb/backend/parser/statement"
 )
 
 func TestCreate(t *testing.T) {
